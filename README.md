@@ -5,9 +5,9 @@ Basic terminal function for Linux and Windows.
 
 For a quickly overview see teste/example.c
 
--------------------------------------------
 
-___________________________________________
+
+
 Reference:
 
 void t_setforeground(int color);
@@ -57,6 +57,7 @@ It gets the char (without RETURN / ENTER press) and puts it on terminal.
 
 
 void t_getsize(int *lines, int *cols);
+
 Retrieves the size of terminal lines and cols, ex.:  int lines=0, cols=0; t_getsize(&lines, &cols); ...
 
 
